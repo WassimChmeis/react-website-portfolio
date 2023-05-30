@@ -31,16 +31,6 @@ const Hero = () => {
                 typeSpeed={30}
                 showCursor={false}
               /> */}
-              <p className="my-3 text-blue-500">
-                This Portfolio was developed professionally by
-                <div className="font-semibold">React, Tailwind css. </div>
-                {/* <Typed
-                  className="text-blue-500"
-                  strings={["This Portfolio was developed professionally by "]}
-                  typeSpeed={30}
-                  showCursor={false}
-                />{" "} */}
-              </p>
             </p>
             <div className="flex justify-center text-[30px] lg:justify-start  text-gray-900">
               <a
