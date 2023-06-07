@@ -70,7 +70,7 @@ const Navbar = () => {
         className={
           nav
             ? " fixed left-0 top-0 w-full bg-white  ease-in-out duration-500"
-            : " ease-linear duration-700 fixed left-[-100%] top-0"
+            : " ease-linear duration-400 fixed left-[-100%] top-0"
         }
       >
         <div className=" p-6 sm:hidden">
