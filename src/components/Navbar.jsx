@@ -13,7 +13,7 @@ const Navbar = () => {
   const handleClick = (event, sectionId) => {
     event.preventDefault();
     const section = document.getElementById(sectionId);
-
+    setNav(!nav);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
