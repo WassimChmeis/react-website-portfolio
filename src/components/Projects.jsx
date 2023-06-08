@@ -13,6 +13,7 @@ const Projects = () => {
         codeLink={cardItem.codeLink}
         content={cardItem.discription}
         tech={cardItem.techUsed}
+        demo={cardItem.liveDemo}
       />
     );
   }

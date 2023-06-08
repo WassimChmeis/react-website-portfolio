@@ -1,11 +1,23 @@
 import img from "../assets/to-do-list-bg.png";
 import mobile2 from "../assets/mobile-arch.jpg";
 import petmeet from "../assets/petmeet.png";
+import kryptoBg from "../assets/krypto-bg.png";
 
 const data = [
   {
     key: 1,
     id: 1,
+    image: kryptoBg,
+    title: "Krypto ⚡",
+    techUsed: ["React", "Tailwind"],
+    codeLink: "https://github.com/WassimChmeis/crypto-currency-app",
+    liveDemo: "https://krypto-wassimchmeis.vercel.app/",
+    discription:
+      "Krypto is a crypto app that allows users to search for information about various cryptocurrencies in real-time.",
+  },
+  {
+    key: 2,
+    id: 2,
     image: img,
     title: "To-Do List",
     techUsed: ["Node.js", "MongoDB"],
@@ -14,8 +26,8 @@ const data = [
       "I developed a to-do list project where users can save their to-do lists to the database. It uses a Node.js and Express.js back-end connected to a MongoDB NoSQL database with Mongoose for data management.",
   },
   {
-    key: 2,
-    id: 2,
+    key: 3,
+    id: 3,
     image: mobile2,
     title: "Gym Management System",
     techUsed: ["Java", "Php"],
@@ -24,8 +36,8 @@ const data = [
       "A Gym Management System built using Java, PHP, and MySQL for an Android application. It included a SQL database connected to the application, enabling trainees to sign in, register for plans, choose coaches, and coaches to manage athletes.",
   },
   {
-    key: 3,
-    id: 3,
+    key: 4,
+    id: 4,
     image: petmeet,
     title: "PetMeet Prototype",
     techUsed: ["Javascript", "Bootstrap"],

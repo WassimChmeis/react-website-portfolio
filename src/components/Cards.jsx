@@ -12,7 +12,13 @@ const Cards = (props) => {
           positioning === 1 ? "lg:order-1 " : "lg:order-2 "
         } `}
       >
-        <img className=" h-full w-full rounded-2xl" alt="/" src={props.image} />
+        <a href={props.demo} target="_blank">
+          <img
+            className=" h-full w-full rounded-2xl"
+            alt="/"
+            src={props.image}
+          />
+        </a>
       </div>
       <div
         className={`text-center  py-6 max-w-[350px] mx-auto ${
@@ -40,10 +46,12 @@ const Cards = (props) => {
               <FaGithub className="ml-1 text-[25px]" />
             </div>
           </a>
-          <div className="flex hover:text-blue-400 transition-colors">
-            <h3>Live Demo </h3>
-            <FiLink2 className="ml-1 text-[25px]" />
-          </div>
+          <a href={props.demo} target="_blank">
+            <div className="flex hover:text-blue-400 transition-colors">
+              <h3>Live Demo </h3>
+              <FiLink2 className="ml-1 text-[25px]" />
+            </div>
+          </a>
         </div>
       </div>
     </div>
