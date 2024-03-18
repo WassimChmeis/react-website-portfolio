@@ -2,7 +2,7 @@ import React from "react";
 
 const Icons = () => {
   return (
-    <div className="flex justify-between lg:w-[450px] flex-wrap ">
+    <div className="flex justify-between lg:w-[450px] flex-wrap gap-2 ">
       <div className="w-[65px] h-16 rounded-full bg-white shadow-level ">
         <img
           title="HTML5"
