@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import Image from "../assets/PHOTO-2022-06-23-15-18-100.jpg";
+import Image from "../assets/photo_2024-03-18_12-20-14.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Icons from "./Icons";
 // import Typed from "react-typed";
