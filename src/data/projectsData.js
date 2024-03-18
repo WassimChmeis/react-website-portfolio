@@ -11,7 +11,7 @@ const data = [
     title: "Krypto ⚡",
     techUsed: ["React", "Tailwind"],
     codeLink: "https://github.com/WassimChmeis/crypto-currency-app",
-    liveDemo: "https://krypto-wassimchmeis.vercel.app/",
+    liveDemo: "https://krypto-blue-seven.vercel.app/",
     discription:
       "Krypto is a crypto app that allows users to search for information about various cryptocurrencies in real-time.",
   },
