@@ -15,7 +15,7 @@ const Cards = (props) => {
       >
         <a href={props.demo} target="_blank">
           <img
-            className=" z-10 absolute  w-full transition-transform duration-1000 transform hover:-translate-y-2/3 "
+            className=" z-10 absolute  w-full transition-transform duration-[5000ms] transform hover:-translate-y-2/3 "
             alt="/"
             src={props.image}
           />

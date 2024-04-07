@@ -9,12 +9,12 @@ const data = [
     key: 1,
     id: 1,
     image: foodGuide,
-    title: "Food-Guide",
+    title: "Food Guide 🍕",
     techUsed: ["React", "Tailwind"],
     codeLink: "https://github.com/WassimChmeis/food-guide",
     liveDemo: "https://food-guide-swart.vercel.app/",
     discription:
-      "I developed PetMeet,cation was designed to be compatible with desktops, mobiles, and tablets, providing a seamless experience for users.",
+      "Food Guide is an online platform that provides users with a streamlined search experience to discover and share recipes and food options, promoting culinary creativity and healthy eating.",
   },
   {
     key: 2,
