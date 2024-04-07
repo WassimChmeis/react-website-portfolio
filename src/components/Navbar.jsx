@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" bg-white fixed w-full flex justify-between items-center mx-auto px-5 md:px-12 text-gray-700  h-20 shadow-md mb-1 ">
+    <div className=" z-20 bg-white fixed w-full flex justify-between items-center mx-auto px-5 md:px-12 text-gray-700  h-20 shadow-md mb-1 ">
       <h1 className=" font-bold text-xl flex">
         Wasim.
         <FaConnectdevelop className="text-[28px] text-red-500" />

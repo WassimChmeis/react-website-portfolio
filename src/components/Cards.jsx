@@ -2,19 +2,20 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FiLink2 } from "react-icons/fi";
+// import { Link } from "react-router-dom";
 
 const Cards = (props) => {
   const positioning = props.id % 2;
   return (
-    <div className="bg-white    min-h-[340px] px-4  lg:max-w-[990px] mx-auto grid sm:max-w-[570px] lg:grid-cols-2 shadow-lg rounded-2xl mb-14">
+    <div className="bg-white  min-h-[340px] px-4  lg:max-w-[990px] mx-auto grid sm:max-w-[570px] lg:grid-cols-2 shadow-lg rounded-2xl mb-14">
       <div
-        className={`w-[95%] lg:w-[450px]  rounded-2xl shadow-md  mx-auto my-5  ${
+        className={` min-h-[220px] max-h-[90%] relative  overflow-hidden  w-[95%] lg:w-[450px]  rounded-2xl shadow-md  mx-auto my-5  ${
           positioning === 1 ? "lg:order-1 " : "lg:order-2 "
         } `}
       >
         <a href={props.demo} target="_blank">
           <img
-            className=" h-full w-full rounded-2xl"
+            className=" z-10 absolute  w-full transition-transform duration-1000 transform hover:-translate-y-2/3 "
             alt="/"
             src={props.image}
           />
