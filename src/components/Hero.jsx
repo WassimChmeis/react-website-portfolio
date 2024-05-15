@@ -3,16 +3,24 @@ import React from "react";
 import Image from "../assets/photo_2024-03-18_12-20-14.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Icons from "./Icons";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // import Typed from "react-typed";
 const Hero = () => {
+  function handleClick() {
+    toast("Wow, so easy!");
+  }
+
   return (
     <div
       className=" bg-[#f9f9f9] mx-auto  py-14  w-full text-center pt-40 "
       id="home"
     >
+      <ToastContainer />
       <div className=" px-4 sm:px-10 lg:w-[1000px] mx-auto">
         <div className="grid lg:grid-cols-2 lg:text-left">
           <img
+            onClick={handleClick}
             className="sm:w-[280px] w-[220px] lg:mr-0 shadow-lg rounded-2xl mx-auto lg:mt-5 lg:order-2"
             src={Image}
             alt="/"
