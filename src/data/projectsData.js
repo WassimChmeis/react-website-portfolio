@@ -1,5 +1,5 @@
-import img from "../assets/to-do-list-bg.82cd37ce04315b80d880.png";
-import mobile2 from "../assets/mobile-arch.jpg";
+// import img from "../assets/to-do-list-bg.82cd37ce04315b80d880.png";
+// import mobile2 from "../assets/mobile-arch.jpg";
 import petmeet from "../assets/Screenshot 2024-04-07 at 18-18-01 TsinDog.png";
 import kryptoBg from "../assets/Screenshot 2024-04-07 at 16-04-25 Krypto.png";
 import foodGuide from "../assets/Screenshot 2024-04-07 at 02-42-59 Vite React.png";
